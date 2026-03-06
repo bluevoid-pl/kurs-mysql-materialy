@@ -1,7 +1,7 @@
 # Pliki
- - [Wprowadzenie do baz danych](<file://./Wprowadzenie do baz danych.md>)
- - [MySQL - Constraints](<file://./MySQL - Constraints.md>)
- - [MySQL - Dane](<file://./MySQL - Dane.md>)
- - [MySQL - Data Types](<file://./MySQL - Data Types.md>)
- - [MySQL - Tabele](<file://./MySQL - Tabele.md>)
- - [Wprowadzenie do baz danych](<file://./Wprowadzenie do baz danych.md>)
+ - [Wprowadzenie do baz danych](Wprowadzenie%20do%20baz%20danych.md)
+ - [MySQL - Constraints](MySQL%20-%20Constraints.md)
+ - [MySQL - Dane](MySQL%20-%20Dane.md)
+ - [MySQL - Data Types](MySQL%20-%20Data%20Types.md)
+ - [MySQL - Tabele](MySQL%20-%20Tabele.md)
+ - [Wprowadzenie do baz danych](Wprowadzenie%20do%20baz%20danych.md)
