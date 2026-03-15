@@ -109,12 +109,12 @@ Klasa
 
 Ewidencja
 
-|Nazwa|typ|
-|---|---|
-|IdEwidencji|INT|
-|IdUcznia|INT|
-|Wejscie|DATETIME|
-|Wyjście|DATETIME|
+| Nazwa       | typ      |
+| ----------- | -------- |
+| IdEwidencji | INT      |
+| IdUcznia    | INT      |
+| Wejscie     | DATETIME |
+| Wyjscie     | DATETIME |
 
 #### [TLDR - Typy Danych](https://bluevoid.pl/mysql-typy-danych/)
 

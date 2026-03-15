@@ -81,7 +81,7 @@ Przykład:
 ```SQL
 CREATE TABLE temp(
     id int NOT NULL,
-    PRIMARY KEY (id_temp)
+    PRIMARY KEY (id)
 );
 
 CREATE TABLE przyklad(
@@ -146,6 +146,7 @@ ALTER TABLE przyklad MODIFY COLUMN numer_bagazu INT AUTO_INCREMENT;
 ```
 <br>
 Pierwszą wartością domyślnie jest 1, aby to zmienić można użyć:
+
 ```SQL
 ALTER TABLE przyklad AUTO_INCREMENT=100;
 ```
@@ -172,7 +173,6 @@ ALTER TABLE przyklad ADD CHECK (wiek>=18);
 ALTER TABLE przyklad ADD CONSTRAINT CHK_wiek_profil CHECK (wiek>=18 AND jest_studentem=TRUE);
 
 -- Usuń warunek z nazwą
-ALTER TABLE przyklad
-DROP CHECK CHK_wiek_profil; 
+ALTER TABLE przyklad DROP CHECK CHK_wiek_profil; 
 ```
 <br>
