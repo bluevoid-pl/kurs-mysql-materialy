@@ -74,7 +74,9 @@ ALTER TABLE nazwa_tabeli MODIFY COLUMN kolumna typ_danych;
 ```
 <br>
 Przykład:
+
 ```SQL
+
 -- Dodaje kolumnę obecnosci do tabeli uczen
 ALTER TABLE uczen ADD obecnosci INT NOT NULL DEFAULT 0;
 

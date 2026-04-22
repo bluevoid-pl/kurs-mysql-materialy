@@ -471,15 +471,15 @@ SELECT * FROM `uczen`
 
 #### Matematyczne
 
-|Operator|Opis|
-|---|---|
-|=|równość|
-|!=|nierówność|
-|>|większe|
-|<|mniejsze|
-|>=|większe równe|
-|<=|mniejsze równe|
-
+| Operator | Opis           |
+| -------- | -------------- |
+| =        | równość        |
+| !=       | nierówność     |
+| >        | większe        |
+| <        | mniejsze       |
+| >=       | większe równe  |
+| <=       | mniejsze równe |
+<> nierówność w access
 #### Logiczne
 
 |Operator|Opis|
@@ -693,7 +693,7 @@ Przykład:
 SELECT Count(*), sreadnia_ocen
   FROM `uczen`
   GROUP BY srednia_ocen
-  ORDER BY imie;
+  ORDER BY srednia_ocen;
 ```
 
 <br>
